@@ -5,3 +5,7 @@
 //string_times('Hi', 1) → 'Hi'
 
 def string_times(str, n):
+  result = ""
+  for i in range(n):   //curly brackets for loops
+    result += str
+  return result
