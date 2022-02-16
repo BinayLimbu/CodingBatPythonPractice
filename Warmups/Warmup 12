@@ -6,3 +6,8 @@
 //front3('abc') → 'abcabcabc'
 
 def front3(str):
+  f = 3
+  if len(str) <= f:
+    f = len(str)
+  front = str[:f]
+  return front + front + front
