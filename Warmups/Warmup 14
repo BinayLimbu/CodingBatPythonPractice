@@ -6,3 +6,8 @@
 //front_times('Abc', 3) → 'AbcAbcAbc'
 
 def front_times(str, n):
+  front = ""
+  if len(str) <= 3:
+    front = str
+  front = str[:3]
+  
