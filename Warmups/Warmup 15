@@ -10,3 +10,5 @@ def string_bits(str):
     if i % 2 == 0:
       result += str[i]
   return result
+
+//shortest method is #return str[::2]
