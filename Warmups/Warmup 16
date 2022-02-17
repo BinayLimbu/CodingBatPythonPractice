@@ -6,6 +6,6 @@
 
 def string_splosion(str):
   result = ""
-  for i in range(len(str)+1):
+  for i in range(len(str)+1):   //+1 could be here or str[:i+1]
     result += str[:i]
   return result
