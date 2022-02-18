@@ -6,3 +6,5 @@
 
 def array_count9(nums):
   return sum(1 for i in range(len(nums)) if nums[i] == 9) 
+  
+//alternatively count count function already exists on python #return nums.count(9)
