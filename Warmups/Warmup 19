@@ -6,6 +6,8 @@
 
 def array_front9(nums):
   for i in range(len(nums)):
-    if i < 4 and nums[i] == 9:
+    if i < 4 and nums[i] == 9:  //cant do return (if i < 4 and nums[i] == 9) in python
       return True
   return False
+
+//can be summed in one line  #return 9 in nums[:4]
