@@ -5,7 +5,7 @@
 //array123([1, 1, 2, 1, 2, 3]) → True
 
 def array123(nums):
-  if len(nums) < 3: 
+  if len(nums) < 3:   //these two lines are actually unnecessary as python doesn't give index out of bounds errors like java
     return False
   for i in range(len(nums)-2):
     if nums[i] == 1 and nums[i+1] == 2 and nums[i+2] == 3:
