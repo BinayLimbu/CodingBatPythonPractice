@@ -5,3 +5,4 @@
 //hello_name('X') → 'Hello X!'
 
 def hello_name(name):
+  return "Hello " + name + "!"
