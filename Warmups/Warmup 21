@@ -14,3 +14,5 @@ def string_match(a, b):
     if asub == bsub:
       count +=1
   return count
+
+//minimum code   #return sum(1 for i in range(short-1) if a[i:i+2] == b[i:i+2])
