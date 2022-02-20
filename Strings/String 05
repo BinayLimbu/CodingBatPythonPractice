@@ -5,4 +5,4 @@
 //extra_end('Hi') → 'HiHiHi'
 
 def extra_end(str):
-  return str[-2:] + str[-2:] + str[-2:]
+  return str[-2:] + str[-2:] + str[-2:]    //[-2:] for the last two indezes before end as [2:] defines step but not position
