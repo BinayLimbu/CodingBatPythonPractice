@@ -5,4 +5,4 @@
 //make_out_word('[[]]', 'word') → '[[word]]'
 
 def make_out_word(out, word):
-  return out[:2] + word + out[2:]
+  return out[:2] + word + out[2:]    //[:x] == indexes from start to x, [x:] == indexes from x to end
