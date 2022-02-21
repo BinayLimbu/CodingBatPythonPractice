@@ -5,3 +5,4 @@
 //first_half('abcdef') → 'abc'
 
 def first_half(str):
+  return str[:len(str)/2]
