@@ -5,4 +5,4 @@
 //first_two('ab') → 'ab'
 
 def first_two(str):
-  return str[:2]
+  return str[:2]   //no need for if len(str) >= 2 for python [:] function
