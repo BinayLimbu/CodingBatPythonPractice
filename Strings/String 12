@@ -9,3 +9,5 @@ def double_char(str):
   for i in range(len(str)):
     result += str[i] * 2
   return result
+
+//a 1 line code for this function is  #return ''.join(char * 2 for char in str)
