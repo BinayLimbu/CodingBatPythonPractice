@@ -11,3 +11,8 @@ def end_other(a, b):
   if b.lower().endswith(a.lower()):
     return True
   return False
+  
+//using an 'or' statement and variables:
+//a = a.lower()
+//b = b.lower()
+//return (b.endswith(a) or a.endswith(b))
