@@ -6,3 +6,8 @@
 //end_other('abc', 'abXabc') → True
 
 def end_other(a, b):
+  if a.lower().endswith(b.lower()):      //s1.endswith(s2) tests if string s1 ends with string s2 in python
+    return True
+  if b.lower().endswith(a.lower()):
+    return True
+  return False
