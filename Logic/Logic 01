@@ -13,3 +13,6 @@ def cigar_party(cigars, is_weekend):
   return False
 
 //neater format:
+//  if is_weekend:
+//    return 40 <= cigars
+//  return 40 <= cigars and cigars <= 60
