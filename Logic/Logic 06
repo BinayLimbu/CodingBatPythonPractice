@@ -14,3 +14,10 @@ def alarm_clock(day, vacation):
   if day >= 1 and day <= 5:
     return "7:00"
   return "10:00"
+
+//shortened using variables:
+//weekdays = "10:00" if vacation else "7:00"
+//weekends = "off" if vacation else "10:00"
+//if day >= 1 and day <= 5:
+//  return weekdays
+//return weekends
