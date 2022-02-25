@@ -11,3 +11,5 @@ def love6(a, b):
   if abs(a - b) == 6:
     return True
   return a + b == 6
+
+//second half can be one line:  #return a + b == 6 or abs(a - b) == 6
