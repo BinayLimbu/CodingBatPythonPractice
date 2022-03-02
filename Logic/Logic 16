@@ -6,3 +6,5 @@
 //make_chocolate(4, 1, 7) → 2
 
 def make_chocolate(small, big, goal):
+  if goal >= 5 * big: remainder = goal - (5 * big)    //same two lines of code as makebricks example
+  else: remainder = goal % 5
