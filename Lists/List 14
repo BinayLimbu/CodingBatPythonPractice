@@ -6,9 +6,9 @@
 //big_diff([2, 10, 7, 2]) → 8
 
 def big_diff(nums):
-  big = nums[0]
+  big = nums[0]    //default values nums[0] since length 1 or more and value 0 would mess results
   small = nums[0]
-  for i in range(len(nums)):
+  for i in range(len(nums)):  //technically first iteration redundant
     big = max(big, nums[i])
     small = min(small, nums[i])
   return big - small
